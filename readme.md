@@ -1,12 +1,12 @@
 # DebateGPT: A Bot that can debate on any topic
 
 ## Introduction
-DebateGPT is an AI adversary chatbot that can debate on any topic.  
-You select the topic, and start to debate right away.  
-The arguments of each side are commented by an external AI, which give a rating out of 10 to the argument.  
-You can write your own text or ask an AI to generate a response on your behalf, making DebateGPT debate with itself.  
-DebateGPT will always take the opposite side of your argument, and try to refute it.  
-It uses the [gpt-4o-mini](https://platform.openai.com/docs/models/gpt-4o-mini) model to generate the responses to your arguments.  
+- DebateGPT is an AI adversary chatbot that can debate on any topic.  
+- You select the topic, and start to debate right away.  
+- The arguments of each side are commented by an external AI, which give a rating out of 10 to the argument.  
+- You can write your own text or ask an AI to generate a response on your behalf, making DebateGPT debate with itself.  
+- DebateGPT will always take the opposite side of your argument, and try to refute it.  
+- It uses the [gpt-4o-mini](https://platform.openai.com/docs/models/gpt-4o-mini) model to generate the responses to your arguments.  
 
 
 ## Interface
