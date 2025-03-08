@@ -1,6 +1,4 @@
-# DebateGPT: A Debate adversary on any topic
-## Access
-You can try out the demo at [debategpt.emileamaj.xyz](http://debategpt.emileamaj.xyz/).
+# DebateGPT: A Bot that can debate on any topic
 
 ## Introduction
 DebateGPT is an AI adversary chatbot that can debate on any topic.  
@@ -10,7 +8,6 @@ You can write your own text or ask an AI to generate a response on your behalf, 
 DebateGPT will always take the opposite side of your argument, and try to refute it.  
 It uses the [gpt-4o-mini](https://platform.openai.com/docs/models/gpt-4o-mini) model to generate the responses to your arguments.  
 
-This project was inspired by Marc Andreessen's remarks on [Lex Fridman's podcast 386](https://www.youtube.com/watch?v=-hxeDjAxvJ8&t=940s) (at 15:40), where he talks about his experiments with GPT-4 debating with itself.
 
 ## Interface
 ![Landing page, with "Taxation" set as the topic](screen-debate-landing.png)
@@ -64,16 +61,3 @@ uvicorn main:app --port 8000
 To start the backend server.
 
 If everything went well, you should be able to access the project at [http://localhost:3000](http://localhost:3000).
-
-## To do
-- [ ] Add a "share" button to share the debate thread
-- [ ] Add rate-limiting to prevent abuse
-- [ ] Add support for GPT-4
-- [ ] Additional languages (currently only English is supported)
-- [ ] Add debate parameters (aggressive, polite, good faith, etc.)
-- [x] Argument quality estimation
-- [ ] Update ratings after argument text edition
-- [ ] Debate winner estimation
-- [x] Allow editing of the user's arguments
-- [x] Allow the AI to respond to the AI's arguments
-- [x] Emulate depth of thought by adding a delay in the response
