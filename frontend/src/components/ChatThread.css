@@ -1,0 +1,64 @@
+.chat-thread {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* default alignment for the AI's messages */
+    width: 100%;
+    height: 100%;
+    padding: 0.2em;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    background-color: rgb(52, 53, 64);
+}
+
+.chat-thread>.message {
+    max-width: 90%;
+    padding: 0.5em;
+    border-radius: 10px;
+    font-size: 1em;
+    white-space: pre-line;
+    margin: 0.1em 0;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.chat-thread>.message * {
+    padding: 0;
+    margin: 0;
+}
+
+.chat-thread .message .message-comment {
+    /* font-size: 0.8em; */
+    color: #e7ff5f;
+    /* margin: 0.2em 0; */
+    overflow: auto;
+    word-wrap: break-word;
+    display: inline;
+}
+
+.chat-thread>.message .message-note {
+    display: inline;
+    /* font-size: 0.8em; */
+    font-weight: bold;
+    
+    color: #e7ff5f;
+
+    margin: 0.2em 0;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+
+.chat-thread>.message.user-message {
+    align-self: flex-end;
+    /* alignment for the user's messages */
+    background-color: #46a2bb;
+}
+
+.chat-thread>.message.ai-message {
+    background-color: #868686;
+}
+
+.message-edition {
+    /* border: rgb(255, 255, 255) 3px solid; */
+}
